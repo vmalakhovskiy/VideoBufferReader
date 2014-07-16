@@ -26,13 +26,15 @@ A simple usage library, that allows you to read video samples (CMSampleBufferRef
 	[bufferReader startReadingAsset:asset error:&error];
 =================
 
-Library support ARC, if you want to use it in project, that doesn't support ARC, don't forget to add **-fobjc-arc** flag
+Library supports ARC, if you want to use it in project, that doesn't support ARC, don't forget to add **-fobjc-arc** flag
 	
 =================
 	
-In future releases i planned to implement audio samples support.
+In future releases I planned to implement audio samples support.
 
 =================
 
 If you have any questions, please feel free to interact.
 My e-mail <purpleshirted@gmail.com>
+
+Copyright (c ) 2014 Vitaliy Malakhovskiy. All rights reserved.
