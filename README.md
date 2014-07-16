@@ -37,4 +37,4 @@ In future releases I planned to implement audio samples support.
 If you have any questions, please feel free to interact.
 My e-mail <purpleshirted@gmail.com>
 
-Copyright (c ) 2014 Vitaliy Malakhovskiy. All rights reserved.
+Copyright (c) 2014 Vitaliy Malakhovskiy. All rights reserved.
