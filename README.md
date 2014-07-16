@@ -21,7 +21,7 @@ Library support ARC, if you want to use it in project, that doesn't support ARC,
 	
 =================
 	
-In future release i planned to implement audio samples support.
+In future releases i planned to implement audio samples support.
 
 If you have any questions, please feel free to interact.
 My e-mail <purpleshirted@gmail.com>
