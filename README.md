@@ -17,11 +17,22 @@ A simple usage library, that allows you to read video samples (CMSampleBufferRef
 	- (void)bufferReader:(BufferReader *)reader didGetNextVideoSample:(CMSampleBufferRef)bufferRef;
 	- (void)bufferReader:(BufferReader *)reader didGetErrorRedingSample:(NSError *)error;
 
+4) Create AVAsset with link to your video file
+
+	AVAsset *asset = [AVAsset assetWithURL:#URL_PATH_TO_VIDEO];
+	
+5) Start reading samples by toggling 
+
+	[bufferReader startReadingAsset:asset error:&error];
+=================
+
 Library support ARC, if you want to use it in project, that doesn't support ARC, don't forget to add **-fobjc-arc** flag
 	
 =================
 	
 In future releases i planned to implement audio samples support.
+
+=================
 
 If you have any questions, please feel free to interact.
 My e-mail <purpleshirted@gmail.com>
